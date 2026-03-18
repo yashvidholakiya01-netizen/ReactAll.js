@@ -1,0 +1,28 @@
+set:
+git config --global user.name "yashvidholakiya01-netizen"
+git config --global user.email yashvidholakiya01@gmail.com
+git config --list
+​
+
+unset:
+git config --global --unset user.name
+git config --global --unset user.email
+
+
+// git ma project udava na hoy tyre 
+terminal ma 
+git add .
+git status
+git commit -m "create home page"
+git push origin main
+
+ please complete authentication in your browser.. pasi cilck kari ne 
+ credintail manager ma jay ne git.com ma joy ne remove karvu 
+ main main aave aetle 
+ ok // npm create vite@7
+
+ jo new repo banavi ne add karvu
+ link terminal ma add karo
+ git add .
+git commit -m "create home page"
+git push origin main/master
