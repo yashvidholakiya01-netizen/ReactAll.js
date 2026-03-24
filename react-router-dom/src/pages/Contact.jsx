@@ -2,7 +2,11 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <div>Contact</div>
+    <>
+     <section className='flex items-center justify-center h-screen w-full'>
+          <h1 className='text-9xl font-bold'>Contact Page</h1>
+     </section>
+    </>
   )
 }
 

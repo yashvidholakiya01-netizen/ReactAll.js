@@ -2,7 +2,11 @@ import React from 'react'
 
 const Collection = () => {
   return (
-    <div>Collection</div>
+    <>
+     <section className='flex items-center justify-center h-screen w-full'>
+          <h1 className='text-9xl font-bold'>Collection Page</h1>
+     </section>
+    </>
   )
 }
 

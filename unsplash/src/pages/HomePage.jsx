@@ -8,7 +8,7 @@ const HomePage = () => {
   return (
     <>
       <section className="w-full h-screen flex">
-        <div className="w-16 h-screen border-r border-r-gray-300">
+        <div className="w-16 h-screen ">
           <SideBar />
         </div>
 

@@ -14,7 +14,7 @@ import React from "react";
 const SideBar = () => {
   return (
     <>
-      <div className="px-1 flex flex-col items-center justify-between h-screen py-2">
+      <div className="px-1 flex flex-col items-center justify-between h-screen py-2 fixed border-r border-r-gray-300">
         <div className="flex flex-col items-center justify-center gap-y-2 text-gray-600 ">
           <div className="border-b-2 border-gray-300 pb-6 flex-col flex items-center justify-center gap-y-4">
             <img
