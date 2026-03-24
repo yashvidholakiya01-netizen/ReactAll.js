@@ -5,7 +5,7 @@ const ProductCard = ({product_data}) => {
     <>
       <div className="card bg-[#b08968]  rounded-4xl p-2 w-full max-w-sm overflow-hidden shadow-2xl relative">
         <img
-          src={product_data.images}
+          src={product_data.images[0]}
           alt="producat image"
           className="w-full h-84 object-cover bg-white/70 rounded-3xl"
         />

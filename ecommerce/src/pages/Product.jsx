@@ -16,7 +16,7 @@ const Product = () => {
         }
         }
         FetchData();
-    },[]);
+    },[id]);
 
   return (
     <>
@@ -24,7 +24,7 @@ const Product = () => {
         {/* image */}
         <div className="w-1/2 relative flex items-center justify-center">
           <img
-            src={detail.images}
+            src={detail.images?.[0]}
             alt="image"
           />
 

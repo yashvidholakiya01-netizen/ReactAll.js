@@ -9,7 +9,7 @@ const ProductBar = () => {
     useEffect(() => {
         const FetchProduct = async () => {
             try {
-                const res = await axios.get("https://dummyjson.com/products?limit=4")
+                const res = await axios.get("https://dummyjson.com/products")
                 setProduct(res.data.products)
             } catch (error) {
                 console.log(error);
