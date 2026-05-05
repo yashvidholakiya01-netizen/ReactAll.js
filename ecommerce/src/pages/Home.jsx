@@ -19,7 +19,7 @@ const Home = () => {
       <DeatilsBar />
       <DiscontBar/>
       <Newsletter/>
-
+     {/* <ProductBar/> */}
     </>
   )
 }
